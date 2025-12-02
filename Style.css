@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'ByteBounce';
+	src: url('ByteBounce.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #fff;
+	color: #222;
+	font-family: 'ByteBounce', 'Segoe UI', Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+#game-ui {
+	margin-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+#score-level {
+	display: flex;
+	gap: 24px;
+	font-size: 1.2rem;
+	margin-bottom: 8px;
+}
+
+#start-btn {
+	padding: 8px 24px;
+	font-size: 1rem;
+	background: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+#start-btn:hover {
+	background: #388e3c;
+}
+
+#game-canvas {
+	background: #fff;
+	border: 3px solid #4caf50;
+	border-radius: 12px;
+	box-shadow: 0 4px 24px #000a;
+	display: block;
+}

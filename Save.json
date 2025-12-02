@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "level": 2,
+  "score": 300,
+  "spidCoins": 75,
+  "equippedWeapon": "Axe",
+  "shopProducts": [
+    {
+      "name": "Apple",
+      "price": 1,
+      "bought": false
+    },
+    {
+      "name": "Axe",
+      "price": 100,
+      "bought": true
+    },
+    {
+      "name": "Knife",
+      "price": 0,
+      "bought": true
+    },
+    {
+      "name": "Bib Sword",
+      "price": 300,
+      "bought": true
+    },
+    {
+      "name": "RunBoost",
+      "price": 100,
+      "bought": false
+    }
+  ],
+  "runBoostActive": false,
+  "runBoostExpiresAt": 0,
+  "player": {
+    "x": 30,
+    "y": 399,
+    "health": -1
+  },
+  "spider": {
+    "maxHealth": 1000,
+    "health": 1000
+  },
+  "missions": [
+    {
+      "desc": "Jump 7 times",
+      "type": "jump",
+      "target": 7,
+      "progress": 1,
+      "done": false,
+      "reward": 10
+    },
+    {
+      "desc": "Jump 4 times",
+      "type": "jump",
+      "target": 4,
+      "progress": 1,
+      "done": false,
+      "reward": 10
+    },
+    {
+      "desc": "Jump 8 times",
+      "type": "jump",
+      "target": 8,
+      "progress": 1,
+      "done": false,
+      "reward": 10
+    }
+  ]
+}
